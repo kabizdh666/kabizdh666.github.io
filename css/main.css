@@ -49,9 +49,6 @@ section {
   margin: 0 auto;
 }
 
-.contacts {
-  margin-bottom: 2em;
-}
 
 .contact {
   display: -webkit-box;
@@ -168,3 +165,27 @@ html.transition * {
           transition-delay: 0 !important;
 }
 /*# sourceMappingURL=main.css.map */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.download__button {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.download__button_icon {
+  height: 2rem;
+  margin-left: 0.4rem;
+}
